@@ -1,5 +1,6 @@
 # Project1
-Project 1 Team Member Wes Chiang, Thotadamoole Shreenidhi, Ryan Sambila, Karan Dogra, Desarae Mcglauflin
+Project 1 
+Team Member Wes Chiang, Thotadamoole Shreenidhi, Ryan Sambila, Karan Dogra, Desarae Mcglauflin
 
 Initial Questions:
 
@@ -34,8 +35,19 @@ Gender with Crime Type Ratio-
 Consistent throughout 2020-2022 despite the change in numbers, ratio is staying the same.
 _______________________________________________________________
 Question 2 (Process)
+1. Retrieve and Downloaded the Data from Crime Data Explorer - Federal Bureau of Investigation for hate crimes. (hate_crime.csv)
+2.Read all the data using pandas data frame
+3. filter the data for only "California" and to have "2019, 2020,2021 and 2022" and create a new data frame with these filtered values.
+4. Visualize data accuracy with print  
+5. Create Bar Chart Based on the information with the data provided in file and store the graphs in a folder.
 
-Result:
+
+Result and Analysis:
+1. Crime rate has increased by 21% in California in the year 2022.
+2. There is a constant increase of hate crime in California
+3. Data shows crimes committed by whites are 250% more as compared to black African Americans.
+4. From the data we can see that LA has the highest crime rate in California followed by San Jose.
+5. Sebastopol, Rio Dell etc has the lowest crime rate.
 
 _______________________________________________________________
 Question 3 (Process)
