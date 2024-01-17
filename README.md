@@ -39,7 +39,21 @@ Result:
 
 _______________________________________________________________
 Question 3 (Process)
-
+1. Retrieve and download the hate crime and the covid hopitalization csv files
+2. Using pandas load into Jupyter Notebote
+3. Created smaller hate crime dataframe to look at indiviual biases.
+4. Biasas are muiliple, so replace bias to be a single type  to be able to do better analysis.  Example: Anti-Lesbian to replace with Anti-Gay
+5. Review top biasas and look at indiviually also.
+6. Create line chart by year to look at hate crimes vs covid hospializations correlation
+7. Create scatter chart by month to look at hate crimes vs covid hospializations correlation
 Result:
+- Hate crimes did significanlty increase during covid on all biasas.
+- Anti-Asian Hate crime was the only one that by data you can say became inflated from the influence of covid.  In the last year had a large decrease
+- Need to follow a few more years of data to see if other biasas decrease also
+- Missing 2023 CA hate crime data to be able to add additional year to data set.  
 _______________________________________________________________
 Question 4 (Process)
+1. Looked for population data to be able to give a hate crime rate in percentage of population.
+2. Population data was foudn to be difficult to pair up with crime data to give an accurate percenage
+
+- No Results
