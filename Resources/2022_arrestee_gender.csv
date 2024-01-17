@@ -1,0 +1,36 @@
+Arrest Offense Category,Total Arrestee,Male,Female
+Total,"5,407,860","3,926,238","1,481,622"
+Crimes Against Person,"978,368","706,956","271,412"
+  Assault Offenses,"928,239","660,733","267,506"
+  Homicide Offenses,"9,540","8,321","1,219"
+  Human Trafficking Offenses,483,410,73
+  Kidnapping/Abduction,"12,842","11,321","1,521"
+  Sex Offenses,"27,264","26,171","1,093"
+Crimes Against Property,"868,990","597,730","271,260"
+  Arson,"6,301","4,846","1,455"
+  Bribery,200,134,66
+  Burglary/Breaking & Entering,"81,142","66,122","15,020"
+  Counterfeiting/Forgery,"20,773","14,247","6,526"
+  Destruction/Damage/Vandalism,"112,568","86,223","26,345"
+  Embezzlement,"7,013","3,542","3,471"
+  Extortion/Blackmail,507,411,96
+  Fraud Offenses,"59,332","38,796","20,536"
+  Larceny/Theft Offenses,"434,206","265,259","168,947"
+  Motor Vehicle Theft,"52,718","41,247","11,471"
+  Robbery,"37,135","31,577","5,558"
+  Stolen Property Offenses,"57,095","45,326","11,769"
+Crimes Against Society,"928,385","695,949","232,436"
+  Animal Cruelty,"3,944","2,412","1,532"
+  Drug/Narcotic Offenses,"787,347","573,727","213,620"
+  Gambling Offenses,765,571,194
+  Pornography/Obscene Material,"5,844","5,164",680
+  Prostitution Offenses,"8,682","3,966","4,716"
+  Weapon Law Violations,"121,803","110,109","11,694"
+Group B Offenses,"2,632,117","1,925,603","706,514"
+  Curfew/Loitering/Vagrancy Violations,"17,414","12,933","4,481"
+  Disorderly Conduct,"190,491","135,045","55,446"
+  Driving Under the Influence,"581,518","431,735","149,783"
+"  Family Offenses, Nonviolent","37,168","24,043","13,125"
+  Liquor Law Violations,"76,186","51,900","24,286"
+  Trespass of Real Property,"188,159","139,340","48,819"
+  All Other Offenses,"1,541,181","1,130,607","410,574"
