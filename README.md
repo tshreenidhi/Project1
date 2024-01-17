@@ -10,6 +10,8 @@ What is the distribution of Crime in California?
 How did the years of Covid19 affect the Crimes in California?
 What was the percentage of Crimes in each city?
 ----------------------------------------------------------------
+
+
 Question 1 (Process)
 1. Retrieve and Downloaded the Data from Crime Data Explorer - Federal Bureau of Investigation for Crime Types happening between 2020-2022
 2. Load all 3 years of data in Jupyter
@@ -17,6 +19,8 @@ Question 1 (Process)
 4. Correcting Data Type from Object to Int (Getting the , Comma was disrupting python to read the format accurately)
 5. Remove the Total Column to ensure data is presented in a better visualized format
 6. Create Bar Chart and Pie Graphs Based on the information with the data provided in file.
+
+
 Result:
 Top 5 Crime Types-
 1. Crime Against Person
@@ -24,6 +28,7 @@ Top 5 Crime Types-
 3. Crime Aganist Property
 4. Crime Aganist Society
 5. Drug/Narcotic Offenses
+
 
 Gender with Crime Type Ratio-
 Consistent throughout 2020-2022 despite the change in numbers, ratio is staying the same.
