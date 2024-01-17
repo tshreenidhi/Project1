@@ -2,6 +2,8 @@
 Project 1 Team Member Wes Chiang, Thotadamoole Shreenidhi, Ryan Sambila, Karan Dogra, Desarae Mcglauflin
 Final data analysis contains ample and complete information in README file (10 points)
 Initial Questions
+
+
 ----------------------------------------------------------------
 What is the ratio of crime between male/female in California?
 What is the distribution of Crime in California?
