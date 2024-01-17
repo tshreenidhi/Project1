@@ -1,15 +1,13 @@
 # Project1
 Project 1 Team Member Wes Chiang, Thotadamoole Shreenidhi, Ryan Sambila, Karan Dogra, Desarae Mcglauflin
-Final data analysis contains ample and complete information in README file (10 points)
-Initial Questions
 
+Initial Questions:
 
-----------------------------------------------------------------
-What is the ratio of crime between male/female in California?
-What is the distribution of Crime in California?
-How did the years of Covid19 affect the Crimes in California?
-What was the percentage of Crimes in each city?
-----------------------------------------------------------------
+1. What is the ratio of crime between male/female in California?
+2. What is the distribution of Crime in California?
+3. How did the years of Covid19 affect the Crimes in California?
+4. What was the percentage of Crimes in each city?
+
 
 
 Question 1 (Process)
