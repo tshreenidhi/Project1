@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_523111cfbf09f9b99d115bf7f018f199 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_523111cfbf09f9b99d115bf7f018f199" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_523111cfbf09f9b99d115bf7f018f199 = L.map(
+                "map_523111cfbf09f9b99d115bf7f018f199",
+                {
+                    center: [36.09347284, -120.24198616000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9754c75878f46762db47bf9b4f0dac6e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9754c75878f46762db47bf9b4f0dac6e.addTo(map_523111cfbf09f9b99d115bf7f018f199);
+        
+    
+            var marker_c7f39e0f6d03d30aa48ea6cec1964781 = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_523111cfbf09f9b99d115bf7f018f199);
+        
+    
+        var popup_7741e3b94ef5ee7f00775a841c1bc5c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52f02be4c72520f21aee910424948c3a = $(`<div id="html_52f02be4c72520f21aee910424948c3a" style="width: 100.0%; height: 100.0%;">City: Los Angeles <br><br> Number of crimes: 461</div>`)[0];
+                popup_7741e3b94ef5ee7f00775a841c1bc5c7.setContent(html_52f02be4c72520f21aee910424948c3a);
+            
+        
+
+        marker_c7f39e0f6d03d30aa48ea6cec1964781.bindPopup(popup_7741e3b94ef5ee7f00775a841c1bc5c7)
+        ;
+
+        
+    
+    
+            var marker_b29a58ea9944b7214e82014a18270dfa = L.marker(
+                [37.3361663, -121.890591],
+                {}
+            ).addTo(map_523111cfbf09f9b99d115bf7f018f199);
+        
+    
+        var popup_d164f1873629aedb22b412b6c3d7379e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9b9c011bfb79657bb19cffaf75f5440 = $(`<div id="html_d9b9c011bfb79657bb19cffaf75f5440" style="width: 100.0%; height: 100.0%;">City: San Jose <br><br> Number of crimes: 117</div>`)[0];
+                popup_d164f1873629aedb22b412b6c3d7379e.setContent(html_d9b9c011bfb79657bb19cffaf75f5440);
+            
+        
+
+        marker_b29a58ea9944b7214e82014a18270dfa.bindPopup(popup_d164f1873629aedb22b412b6c3d7379e)
+        ;
+
+        
+    
+    
+            var marker_709563a4b870219a90c8191fba0bd1fc = L.marker(
+                [37.7790262, -122.419906],
+                {}
+            ).addTo(map_523111cfbf09f9b99d115bf7f018f199);
+        
+    
+        var popup_e1a94e588430b4e5448e8db408bf98c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_295b55d329e98e433fd1f3276d97e26e = $(`<div id="html_295b55d329e98e433fd1f3276d97e26e" style="width: 100.0%; height: 100.0%;">City: San Francisco <br><br> Number of crimes: 114</div>`)[0];
+                popup_e1a94e588430b4e5448e8db408bf98c2.setContent(html_295b55d329e98e433fd1f3276d97e26e);
+            
+        
+
+        marker_709563a4b870219a90c8191fba0bd1fc.bindPopup(popup_e1a94e588430b4e5448e8db408bf98c2)
+        ;
+
+        
+    
+    
+            var marker_f1c950db4af7dce682d2e773c13494fb = L.marker(
+                [38.5810606, -121.493895],
+                {}
+            ).addTo(map_523111cfbf09f9b99d115bf7f018f199);
+        
+    
+        var popup_d746aa704fc041af3895ab82a2f01619 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea036a9d583f3416a43c00df836278ff = $(`<div id="html_ea036a9d583f3416a43c00df836278ff" style="width: 100.0%; height: 100.0%;">City: Sacramento <br><br> Number of crimes: 67</div>`)[0];
+                popup_d746aa704fc041af3895ab82a2f01619.setContent(html_ea036a9d583f3416a43c00df836278ff);
+            
+        
+
+        marker_f1c950db4af7dce682d2e773c13494fb.bindPopup(popup_d746aa704fc041af3895ab82a2f01619)
+        ;
+
+        
+    
+    
+            var marker_d6b74514bf50d96e1573a63e80ae368f = L.marker(
+                [32.7174202, -117.1627728],
+                {}
+            ).addTo(map_523111cfbf09f9b99d115bf7f018f199);
+        
+    
+        var popup_7e1c6796f79b410fae2b60e0563e1ce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e348247fa3d94c9b3381e0c825aafcda = $(`<div id="html_e348247fa3d94c9b3381e0c825aafcda" style="width: 100.0%; height: 100.0%;">City: San Diego <br><br> Number of crimes: 61</div>`)[0];
+                popup_7e1c6796f79b410fae2b60e0563e1ce1.setContent(html_e348247fa3d94c9b3381e0c825aafcda);
+            
+        
+
+        marker_d6b74514bf50d96e1573a63e80ae368f.bindPopup(popup_7e1c6796f79b410fae2b60e0563e1ce1)
+        ;
+
+        
+    
+    
+            tile_layer_9754c75878f46762db47bf9b4f0dac6e.addTo(map_523111cfbf09f9b99d115bf7f018f199);
+        
+</script>
+</html>
